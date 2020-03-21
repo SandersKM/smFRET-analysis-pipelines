@@ -27,7 +27,7 @@ The main function in this file is `make_annotations`. For each folder of type (B
 
 ## histogramMaker.py
 
-The main function, `make_histograms`, makes all individual and stacked FRET histograms from `FRETresult.dat` files. The file itself has lots of comments, so you should be able to customize the aestetics of the histograms fairly easily. Examples of an individual and stacked histogram are below. 
+The main function, `make_histograms`, makes all individual and stacked FRET histograms from `FRETresult.dat` files (where the data to be plotted is the first column of the data file). The program automatically scales the data so that the first histogram peak occurs at x = 0. The file itself has lots of comments, so you should be able to customize the aestetics of the histograms fairly easily. Examples of an individual and stacked histogram are below. 
 
 ![individual histogram](https://github.com/SandersKM/smFRET-analysis-pipelines/blob/master/Example_images/individual/histogram.png "Individual Histogram")
 
@@ -35,7 +35,7 @@ The main function, `make_histograms`, makes all individual and stacked FRET hist
 
 ## EfretChartMaker.py
 
-The main function, `make_eFRET_charts`, makes all individual and stacked FRET Efficiency charts from `eFRET.dat` files. The file itself has lots of comments, so you should be able to customize the aestetics of the charts fairly easily. Examples of an individual and stacked chart are below. 
+The main function, `make_eFRET_charts`, makes all individual and stacked FRET Efficiency charts from `eFRET.dat` files. The program automatically scales the data so that the photobleached section of the data is around y = 0. The file itself has lots of comments, so you should be able to customize the aestetics of the charts fairly easily. Examples of an individual and stacked chart are below. 
 
 ![Individual FRET efficiency chart](https://github.com/SandersKM/smFRET-analysis-pipelines/blob/master/Example_images/individual/eFRET_plot.png "Individual FRET efficiency chart")
 
