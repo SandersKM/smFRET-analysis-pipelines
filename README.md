@@ -7,7 +7,7 @@ These python files are for creating annotated, stacked FRET histograms and FRET 
 * (B) Folder containing several (A) experiment folders that you want to appear in a single stacked plot
 * (C) Any number of wrapper folders leading back to the `ROOT_DIR` location
 
-## `sharedFunctions.py`
+## sharedFunctions.py
 
 **IMPORTANT** - Change the `ROOT_DIR` variable at the top of this file. This path variable should lead to the folder that contains all sets of folders that you want stacked and individual plots for. 
 
@@ -17,7 +17,7 @@ This file contains a variety of functions that are used in multiple files:
 * `suplabel` makes the combined x an y axes of a stacked plot
 * `font` returns a standardized font dictionary of a certain size
 
-## `annotationMaker.py`
+## annotationMaker.py
 
 **IMPORTANT** - The other plotting files will crash if you don't have annotation files within each folder you want to plot data from. I might fix this later, but I'm assuming most stacked histograms could do with annotations.
 
