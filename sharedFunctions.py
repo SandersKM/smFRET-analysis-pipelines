@@ -5,7 +5,7 @@ import os
 IMPORTANT: Before using this, change the rootDir to match where your files are located.
 The directory structure might be a bit different for Mac / Linux users 
 '''
-ROOT_DIR = "\\Users\\kates\\Desktop\\Triplet Repeat\\Data"
+ROOT_DIR = "\\Path\\To\\Data"
 ANNOTATION_FILE_NAME = "annotation.txt"
 
 '''
